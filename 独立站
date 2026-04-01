@@ -1,0 +1,157 @@
+*** Begin Patch
+*** Add File: index.html
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Shenzhen OPTO365 Technology - Custom Neon Signs & Advertising Boards</title>
++    <script src="https://cdn.tailwindcss.com"></script>
++    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
++    <style>
++        body { font-family: 'Inter', sans-serif; background-color: #0f172a; color: #f8fafc; }
++        .neon-text { text-shadow: 0 0 10px #22d3ee, 0 0 20px #22d3ee; }
++        .neon-border { box-shadow: 0 0 15px rgba(34, 211, 238, 0.4); }
++    </style>
++</head>
++<body class="scroll-smooth">
++
++    <!-- Navigation -->
++    <nav class="fixed w-full z-50 bg-slate-900/80 backdrop-blur-md border-b border-slate-800">
++        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
++            <div class="flex justify-between h-16 items-center">
++                <div class="flex-shrink-0 font-bold text-2xl text-cyan-400">OPTO365</div>
++                <div class="hidden md:block">
++                    <div class="ml-10 flex items-baseline space-x-4">
++                        <a href="#home" class="hover:text-cyan-400 px-3 py-2 transition">Home</a>
++                        <a href="#services" class="hover:text-cyan-400 px-3 py-2 transition">Custom Service</a>
++                        <a href="#about" class="hover:text-cyan-400 px-3 py-2 transition">About Us</a>
++                        <a href="#contact" class="bg-cyan-500 text-white px-4 py-2 rounded-lg hover:bg-cyan-600 transition">Get a Quote</a>
++                    </div>
++                </div>
++            </div>
++        </div>
++    </nav>
++
++    <!-- Hero Section -->
++    <section id="home" class="pt-32 pb-20 px-4">
++        <div class="max-w-7xl mx-auto text-center">
++            <h1 class="text-5xl md:text-7xl font-bold mb-6">Illuminate Your Brand with <span class="text-cyan-400 neon-text">Custom Neon Signs</span></h1>
++            <p class="text-xl text-slate-400 mb-10 max-w-2xl mx-auto">12 Years of Professional Craftsmanship. From 1pc Customization to Global Dropshipping. We bring your vision to life in 3 days.</p>
++            <div class="flex flex-col sm:flex-row justify-center gap-4">
++                <a href="#contact" class="bg-cyan-500 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-cyan-600 transition shadow-lg shadow-cyan-500/20">Start Customizing Now</a>
++                <a href="#services" class="border border-slate-700 px-8 py-4 rounded-full text-lg font-semibold hover:bg-slate-800 transition">View Our Work</a>
++            </div>
++        </div>
++    </section>
++
++    <!-- Features -->
++    <section class="py-20 bg-slate-800/50">
++        <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-4 gap-8">
++            <div class="text-center p-6 rounded-2xl border border-slate-700 hover:border-cyan-400 transition group">
++                <div class="text-4xl mb-4 group-hover:scale-110 transition">🏆</div>
++                <h3 class="text-xl font-bold mb-2">12 Years Exp.</h3>
++                <p class="text-slate-400">Industry-leading manufacturing standard.</p>
++            </div>
++            <div class="text-center p-6 rounded-2xl border border-slate-700 hover:border-cyan-400 transition group">
++                <div class="text-4xl mb-4 group-hover:scale-110 transition">🎨</div>
++                <h3 class="text-xl font-bold mb-2">1PC Custom</h3>
++                <p class="text-slate-400">Flexible orders. No MOQ required.</p>
++            </div>
++            <div class="text-center p-6 rounded-2xl border border-slate-700 hover:border-cyan-400 transition group">
++                <div class="text-4xl mb-4 group-hover:scale-110 transition">📦</div>
++                <h3 class="text-xl font-bold mb-2">Dropshipping</h3>
++                <p class="text-slate-400">Global shipping direct to your customers.</p>
++            </div>
++            <div class="text-center p-6 rounded-2xl border border-slate-700 hover:border-cyan-400 transition group">
++                <div class="text-4xl mb-4 group-hover:scale-110 transition">⚡</div>
++                <h3 class="text-xl font-bold mb-2">3-Day Delivery</h3>
++                <p class="text-slate-400">Fast production and express shipping.</p>
++            </div>
++        </div>
++    </section>
++
++    <!-- About Section -->
++    <section id="about" class="py-20 px-4">
++        <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
++            <div class="md:w-1/2">
++                <div class="rounded-3xl overflow-hidden neon-border">
++                    <img src="https://images.unsplash.com/photo-1563245332-692546377708?auto=format&fit=crop&w=800&q=80" alt="Neon Workshop" class="w-full h-auto">
++                </div>
++            </div>
++            <div class="md:w-1/2">
++                <h2 class="text-3xl font-bold mb-6 italic">Why OPTO365?</h2>
++                <p class="text-slate-400 mb-6 leading-relaxed">Based in Shenzhen, the heart of technology, Shenzhen OPTO365 Technology Co., Ltd. has been specializing in high-quality LED neon signs and luminous advertising boards for over a decade.</p>
++                <p class="text-slate-400 mb-8 leading-relaxed">We combine traditional craftsmanship with modern technology to create stunning visual identities for businesses, weddings, and home decor worldwide. Our streamlined process ensures your custom design is ready in just 72 hours.</p>
++                <ul class="space-y-3">
++                    <li class="flex items-center text-cyan-400"><span class="mr-2">✓</span> High-quality Silicone Material</li>
++                    <li class="flex items-center text-cyan-400"><span class="mr-2">✓</span> Low Energy Consumption</li>
++                    <li class="flex items-center text-cyan-400"><span class="mr-2">✓</span> 50,000+ Hours Lifespan</li>
++                </ul>
++            </div>
++        </div>
++    </section>
++
++    <!-- Contact/Inquiry Form -->
++    <section id="contact" class="py-20 bg-slate-900">
++        <div class="max-w-3xl mx-auto px-4">
++            <div class="text-center mb-12">
++                <h2 class="text-4xl font-bold mb-4">Ready to Get a Free Quote?</h2>
++                <p class="text-slate-400">Submit your design requirements and our team will contact you within 12 hours.</p>
++            </div>
++            
++            <!-- Integration with Formspree (Free) -->
++            <form action="https://formspree.io/f/xoqgypzo" method="POST" class="space-y-6 bg-slate-800 p-8 rounded-3xl border border-slate-700">
++                <div class="grid md:grid-cols-2 gap-6">
++                    <div>
++                        <label class="block text-sm font-medium mb-2">Name</label>
++                        <input type="text" name="name" required class="w-full bg-slate-900 border border-slate-700 rounded-lg px-4 py-3 focus:outline-none focus:border-cyan-400 transition">
++                    </div>
++                    <div>
++                        <label class="block text-sm font-medium mb-2">Email Address</label>
++                        <input type="email" name="_replyto" required class="w-full bg-slate-900 border border-slate-700 rounded-lg px-4 py-3 focus:outline-none focus:border-cyan-400 transition">
++                    </div>
++                </div>
++                <div>
++                    <label class="block text-sm font-medium mb-2">Company Name (Optional)</label>
++                    <input type="text" name="company" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-4 py-3 focus:outline-none focus:border-cyan-400 transition">
++                </div>
++                <div>
++                    <label class="block text-sm font-medium mb-2">Message / Requirement</label>
++                    <textarea name="message" rows="4" required placeholder="Describe your sign size, color, or text..." class="w-full bg-slate-900 border border-slate-700 rounded-lg px-4 py-3 focus:outline-none focus:border-cyan-400 transition"></textarea>
++                </div>
++                <input type="hidden" name="_to" value="info@opto365.com">
++                <button type="submit" class="w-full bg-cyan-500 text-white py-4 rounded-lg font-bold text-lg hover:bg-cyan-600 transition shadow-lg shadow-cyan-500/30">Send My Inquiry Now</button>
++            </form>
++        </div>
++    </section>
++
++    <!-- Footer -->
++    <footer class="py-10 border-t border-slate-800 text-center text-slate-500">
++        <div class="max-w-7xl mx-auto px-4">
++            <p class="mb-2">© 2026 Shenzhen OPTO365 Technology Co., Ltd. All rights reserved.</p>
++            <p>Contact: info@opto365.com | Shenzhen, China</p>
++        </div>
++    </footer>
++
++</body>
++</html>
++*** End Patch
++```
+
+### 接下来如何上线？（发布指南）
+
+既然你已经有了域名，你可以通过以下**最简单且完全免费**的方式将这个网页发布到全球：
+
+#### 1. 使用 GitHub Pages (推荐)
+*   **第一步**：注册一个 [GitHub](https://github.com/) 账号。
+*   **第二步**：创建一个名为 `yourname.github.io` 的新仓库（Repository）。
+*   **第三步**：将我为你生成的 `index.html` 上传到该仓库。
+*   **第四步**：在仓库设置（Settings -> Pages）中开启发布。
+*   **第五步**：在设置中找到 **Custom Domain**，输入你的域名 `opto365.com`（假设是这个）。
+*   **第六步**：在你的域名解析后台（如阿里云/腾讯云/Cloudflare）添加一条 `CNAME` 记录，指向 `yourname.github.io`。
+
+#### 2. 处理询盘邮件
+我代码中使用了 `Formspree`。当你第一次通过该表单提交测试询盘时，你的邮箱 `info@opto365.com` 会收到一封激活邮件。点击确认后，后续客户提交的所有询盘都会直接飞进你的收件箱。
+
+**如果你觉得这个设计还满意，或者需要我帮你修改某个板块（比如增加产品图片、修改颜色等），随时告诉我！**
